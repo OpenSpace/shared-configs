@@ -1,0 +1,38 @@
+{
+  "name": "@openspace/shared-configs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint.config.js",
+    "./eslint/react": "./eslint-react.config.js",
+    "./prettier": "./prettier.config.js",
+    "./markdownlint.json": "./markdownlint.json",
+    "./tsconfig.json": "./tsconfig.json",
+    "./tsconfig.vite.json": "./tsconfig.vite.json"
+  },
+  "files": [
+    "eslint.config.js",
+    "eslint-react.config.js",
+    "prettier.config.js",
+    "markdownlint.json",
+    "tsconfig.json",
+    "tsconfig.vite.json"
+  ],
+  "peerDependencies": {
+    "@eslint/js": "^10",
+    "eslint-config-prettier": "^10",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-refresh": "^0.5",
+    "eslint-plugin-simple-import-sort": "^14",
+    "typescript-eslint": "^8"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-refresh": {
+      "optional": true
+    }
+  }
+}
